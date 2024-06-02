@@ -13,20 +13,108 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
 
 .App-link {
   color: #61dafb;
 }
+
+
+
+.maindiv{
+  padding:  10px 30px;
+  background: var(--Light-Background, #F4F4FB);
+  height: 100vh;
+  
+}
+.btndiv{
+  display: flex;
+  justify-content: center;
+}
+
+.btndivsubmit{
+  padding: 30px 0px;
+}
+
+.btnadd{
+  width: 200px;
+}
+
+.cardmaindiv{
+  margin-top: 50px;
+}
+
+.invbtn{
+  display: flex;
+  justify-content: end;
+}
+
+.deletebtn{
+  /* margin-top: -20px; */
+}
+
+.billingdetailsdiv{
+  margin-top: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+.g-3 > .col-md-3,
+.g-3 > .col-md-2 {
+  padding-bottom: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.text-danger {
+  font-size: 1rem;
+  margin-top: 0.25rem;
+}
+
+.mt-4 {
+  margin-top: 1.5rem;
+}
+
+
+.form-control {
+  -webkit-appearance: none;
+  appearance: none;
+  background-clip: padding-box;
+  background-color: #fff;
+  border: 1px solid #d9dee3;
+  border-radius: .375rem;
+  color: #697a8d;
+  display: block;
+  font-size: .9375rem;
+  font-weight: 400;
+  line-height: 1.53;
+  padding: .4375rem .875rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  width: 100%;
+  
+}
+
+.viewinvoice{
+  display: flex;
+  justify-content: end;
+}
+
+.additemdiv{
+  margin-top: 30px !important;
+  border-radius: 23px 23px 20px 20px;
+/* border: 5px solid var(--Theme-White, #FFF); */
+background: var(--Light-Background, #F4F4FB);
+box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
 
 @keyframes App-logo-spin {
   from {
