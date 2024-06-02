@@ -22,7 +22,7 @@ function InvoiceList() {
     <div className="maindiv">
       <div className="invbtn">
         <Button variant="primary" onClick={() => navigate("/")}>
-          Create Invoice
+          Create Invoices
         </Button>
       </div>
 
